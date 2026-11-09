@@ -1,0 +1,76 @@
+version: '3.9'
+
+services:
+  syntara-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: syntara-os-core
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - POSTGRES_HOST=syntara-postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=syntara
+      - POSTGRES_USER=syntara_admin
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-syntara_local_secret}
+      - REDIS_URL=redis://syntara-redis:6379/0
+      - OLLAMA_BASE_URL=http://syntara-ollama:11434
+    volumes:
+      - syntara_data:/app/data
+    depends_on:
+      syntara-postgres:
+        condition: service_healthy
+      syntara-redis:
+        condition: service_started
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2048M
+
+  syntara-postgres:
+    image: pgvector/pgvector:pg16
+    container_name: syntara-postgres-pgvector
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: syntara
+      POSTGRES_USER: syntara_admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-syntara_local_secret}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/migrations/001_syntara_initial_schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U syntara_admin -d syntara"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  syntara-redis:
+    image: redis:7-alpine
+    container_name: syntara-redis-queue
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  syntara-ollama:
+    image: ollama/ollama:latest
+    container_name: syntara-ollama-local
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+
+volumes:
+  syntara_data:
+  postgres_data:
+  redis_data:
+  ollama_models:

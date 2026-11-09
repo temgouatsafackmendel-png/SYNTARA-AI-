@@ -1,0 +1,6 @@
+{
+  "name": "SYNTARA AI — Universal Autonomous Intelligence OS",
+  "description": "Universal Autonomous Intelligence Operating System. Imagine. Orchestrate. Transform. Plateforme open-source modulaire avec 12 moteurs intelligents, orchestration multi-agents, Intent-to-System, workflows visuels et simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" width="1440" height="860" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1440" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07090F"/>
+      <stop offset="100%" stop-color="#0B101B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="860" rx="16" fill="url(#bg2)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Header Banner -->
+  <rect x="36" y="32" width="1368" height="88" rx="16" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="64" y="64" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="0.14em">ENGINE 03 &amp; ENGINE 04 · AUTONOMOUS AGENT NETWORK &amp; COLLECTIVE INTELLIGENCE</text>
+  <text x="64" y="94" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="20" font-weight="600">Réseau des 12 Agents Spécialisés — Gouvernance &amp; Délégation Multi-Agents</text>
+  <rect x="1080" y="54" width="296" height="40" rx="10" fill="#07090F" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="1102" y="79" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11">ASSISTED · SUPERVISED · AUTONOMOUS</text>
+
+  <!-- 12 Agent Cards Grid (3x4) -->
+  <!-- Row 1 -->
+  <g transform="translate(36, 144)">
+    <rect width="324" height="145" rx="14" fill="#121827" stroke="#6E56CF" stroke-width="1.5"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.4.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">01. System Architect Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Architecture distribuée, schémas SQL &amp; contrats API</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 99.2% · 142 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(384, 144)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.2.0</text>
+    <text x="250" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">RUNNING</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">02. Research &amp; Intelligence</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Veille stratégique, RAG hybride &amp; vérification</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 98.4% · 218 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(732, 144)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.5.1</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">03. Software Engineer Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Génération TypeScript/Python &amp; diffs validés</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 97.9% · 310 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(1080, 144)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">AUTONOMOUS · v1.3.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">04. Data &amp; Analytics Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Modélisation statistique, KPIs &amp; télémétrie</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 99.1% · 176 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(36, 309)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.1.0</text>
+    <text x="200" y="28" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="10">WAITING APPROVAL</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">05. Automation &amp; DevOps</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Pipelines CI/CD, Docker Compose &amp; infra</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 98.0% · 95 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(384, 309)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">ASSISTED · v1.2.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">06. Business Strategy Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Modèles économiques, ROI &amp; analyse marché</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 97.5% · 84 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(732, 309)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">ASSISTED · v1.1.2</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">07. Creative &amp; Design Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Systèmes de design 2026, UI/UX &amp; prototypage</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 98.8% · 112 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(1080, 309)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">AUTONOMOUS · v1.6.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">08. Security &amp; Governance</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Défense anti-injection, RBAC &amp; audit de secrets</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 99.8% · 420 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(36, 474)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">AUTONOMOUS · v1.4.2</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">09. Memory Curator Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Consolidation des 6 couches mémoire &amp; provenance</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 99.5% · 260 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(384, 474)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.3.1</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">10. Simulation &amp; Forecasting</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Projections Conservative, Balanced &amp; Optimistic</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 98.2% · 134 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(732, 474)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">AUTONOMOUS · v1.5.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">11. Quality Assurance Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Validation automatisée des 15 critères d'acceptation</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 99.6% · 290 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <g transform="translate(1080, 474)">
+    <rect width="324" height="145" rx="14" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="20" y="28" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">SUPERVISED · v1.4.0</text>
+    <text x="250" y="28" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">COMPLETED</text>
+    <text x="20" y="54" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="600">12. Project Manager Agent</text>
+    <text x="20" y="76" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Coordination d'équipes, arbitrage &amp; jalons</text>
+    <line x1="20" y1="102" x2="304" y2="102" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="20" y="126" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="11">Succès 98.9% · 198 runs</text>
+    <text x="236" y="126" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="10">Kill Switch</text>
+  </g>
+
+  <!-- Inter-Agent Arbitration Bus Footer -->
+  <rect x="36" y="644" width="1368" height="184" rx="16" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="64" y="678" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">Bus de Communication Inter-Agents &amp; Arbitrage de Conflits (Collective Intelligence Engine)</text>
+  <line x1="36" y1="694" x2="1404" y2="694" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+  <text x="64" y="726" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11">[DELEGATION] Project Manager Agent → System Architect Agent &amp; Software Engineer Agent</text>
+  <text x="64" y="748" fill="#8A94A6" font-family="Inter, sans-serif" font-size="12">Mission décomposée en 5 jalons vérifiables avec isolation mémoire scope:project:crm_b2b_flagship</text>
+
+  <text x="64" y="784" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="11">[ARBITRATION] Security &amp; Governance Agent → Quality Assurance Agent (Consensus Validé)</text>
+  <text x="64" y="806" fill="#8A94A6" font-family="Inter, sans-serif" font-size="12">Politique Zero-Trust appliquée sur les 39 tables PostgreSQL + pgvector · SYNTARA AI par Mendel Temgoua</text>
+</svg>

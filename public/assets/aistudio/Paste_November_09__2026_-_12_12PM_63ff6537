@@ -1,0 +1,1220 @@
+# MASTER PROMPT — SYNTARA AI
+## Universal Autonomous Intelligence Operating System
+### Version 1.0 — Foundational Edition
+
+---
+
+# 01. IDENTITÉ ET VISION DU PRODUIT
+
+Tu es chargé de concevoir et développer SYNTARA AI, une plateforme universelle d'intelligence artificielle autonome.
+
+Nom : SYNTARA AI
+
+Nom technique : SYNTARA
+
+Catégorie : Universal Autonomous Intelligence Operating System.
+
+Slogan : Imagine. Orchestrate. Transform.
+
+Licence : MIT.
+
+Distribution : Open Source.
+
+Déploiement : Local, serveur et cloud.
+
+Architecture : Modulaire, extensible, multi-utilisateur et indépendante des fournisseurs IA.
+
+Langues initiales : Français et anglais.
+
+## Vision
+
+SYNTARA doit permettre à n'importe quel utilisateur de transformer une intention, une idée ou un objectif en un système intelligent capable de planifier, créer, exécuter, analyser et améliorer des opérations.
+
+SYNTARA ne doit pas être un simple chatbot.
+
+Il doit être une plateforme capable de :
+- Comprendre des objectifs complexes.
+- Construire des plans d'action.
+- Créer des agents IA spécialisés.
+- Faire collaborer plusieurs agents.
+- Exécuter des tâches dans des environnements contrôlés.
+- Créer des workflows autonomes.
+- Développer des applications et logiciels.
+- Utiliser des outils externes.
+- Exploiter des bases de connaissances.
+- Simuler des scénarios.
+- Analyser les résultats.
+- Proposer des améliorations.
+- Travailler durablement sur plusieurs projets.
+
+L'utilisateur doit pouvoir construire son propre écosystème d'intelligence artificielle sans dépendre d'un fournisseur propriétaire.
+
+# 02. OBJECTIFS FONDAMENTAUX
+
+Construire un logiciel qui respecte les principes suivants :
+
+1. Open Source : code source accessible et modifiable.
+2. Model Agnostic : indépendance vis-à-vis des modèles IA.
+3. Self-hosted : installation autonome.
+4. Extensible : système de plugins et connecteurs.
+5. Autonomous : exécution intelligente des tâches autorisées.
+6. Collaborative : coopération entre agents.
+7. Secure by Design : sécurité intégrée dès la conception.
+8. Human Controlled : contrôle humain permanent.
+9. Developer Friendly : architecture compréhensible et documentée.
+10. SaaS Ready : évolution possible vers une infrastructure SaaS.
+
+Ne pas créer une copie visuelle ou fonctionnelle d'un produit existant.
+
+Développer une identité produit et une architecture propres à SYNTARA.
+
+# 03. LES 12 MOTEURS INTELLIGENTS
+
+L'architecture doit reposer sur douze moteurs spécialisés.
+
+## ENGINE 01 — INTENT ENGINE
+
+Mission : transformer les intentions humaines en objectifs structurés.
+
+Fonctionnalités :
+- Compréhension du langage naturel.
+- Identification des objectifs.
+- Détection des contraintes.
+- Identification des ressources.
+- Décomposition des objectifs.
+- Analyse des dépendances.
+- Détection des ambiguïtés.
+- Génération de plans d'action.
+- Évaluation de la faisabilité.
+- Estimation des ressources nécessaires.
+
+Créer un format interne standardisé nommé SYNTARA Intent Schema.
+
+Chaque intention doit pouvoir être transformée en une représentation structurée contenant :
+- Objectif.
+- Contexte.
+- Contraintes.
+- Ressources.
+- Résultats attendus.
+- Critères de réussite.
+- Permissions nécessaires.
+- Risques identifiés.
+
+## ENGINE 02 — COGNITIVE ENGINE
+
+Mission : fournir les capacités de raisonnement et de planification.
+
+Fonctionnalités :
+- Analyse des problèmes.
+- Planification multi-étapes.
+- Décomposition hiérarchique.
+- Comparaison des solutions.
+- Sélection des stratégies.
+- Évaluation des résultats.
+- Gestion des erreurs.
+- Révision des plans.
+- Vérification des hypothèses.
+
+Ne pas exposer de raisonnement interne privé. Fournir plutôt des explications, des décisions justifiées, des étapes exécutables et des traces d'audit.
+
+## ENGINE 03 — AUTONOMOUS AGENT ENGINE
+
+Mission : créer et exécuter des agents autonomes.
+
+Chaque agent doit avoir :
+- Un identifiant unique.
+- Un nom.
+- Une description.
+- Une mission.
+- Des instructions.
+- Un modèle IA.
+- Des compétences.
+- Des outils.
+- Une mémoire configurable.
+- Des permissions.
+- Des limites de ressources.
+- Un état d'exécution.
+- Un historique.
+- Une version.
+
+États possibles :
+- Draft.
+- Ready.
+- Running.
+- Waiting Approval.
+- Paused.
+- Completed.
+- Failed.
+- Disabled.
+
+Capacités :
+- Recevoir des missions.
+- Planifier les actions.
+- Choisir les outils autorisés.
+- Exécuter des tâches.
+- Contrôler les résultats.
+- Détecter les erreurs.
+- Réessayer selon une politique définie.
+- Demander une validation.
+- Produire un rapport.
+
+Créer trois niveaux d'autonomie :
+
+ASSISTED :
+L'agent prépare les opérations et demande confirmation.
+
+SUPERVISED :
+L'agent exécute les actions autorisées et demande confirmation pour les opérations sensibles.
+
+AUTONOMOUS :
+L'agent exécute les tâches autorisées sans validation individuelle, tout en respectant les quotas, les permissions et les limites définies.
+
+Créer un mécanisme d'arrêt immédiat pour chaque agent.
+
+## ENGINE 04 — COLLECTIVE INTELLIGENCE ENGINE
+
+Mission : permettre la collaboration entre plusieurs agents.
+
+Créer :
+- Un orchestrateur central.
+- Un système de délégation.
+- Un registre des agents.
+- Une file de tâches.
+- Un système de communication.
+- Un gestionnaire de dépendances.
+- Un système de résolution des conflits.
+- Un agrégateur de résultats.
+
+Créer des agents initiaux :
+
+1. Research Agent.
+2. Software Engineer Agent.
+3. Business Strategist Agent.
+4. Marketing Agent.
+5. Data Analyst Agent.
+6. Financial Analyst Agent.
+7. Content Creator Agent.
+8. Automation Agent.
+9. Security Analyst Agent.
+10. Project Manager Agent.
+11. Quality Assurance Agent.
+12. System Architect Agent.
+
+L'utilisateur doit pouvoir créer des équipes d'agents personnalisées.
+
+Exemple :
+
+Une mission complexe peut être répartie entre un architecte, deux développeurs, un analyste et un agent de test.
+
+Les agents doivent partager uniquement les informations et ressources auxquelles ils sont autorisés à accéder.
+
+## ENGINE 05 — MEMORY ENGINE
+
+Mission : donner une continuité aux projets et aux agents.
+
+Créer plusieurs couches :
+
+- Working Memory.
+- Conversation Memory.
+- Project Memory.
+- Long-Term Memory.
+- Knowledge Memory.
+- Agent Memory.
+
+Fonctionnalités :
+- Enregistrement.
+- Recherche.
+- Mise à jour.
+- Suppression.
+- Versionnement.
+- Expiration configurable.
+- Gestion des sources.
+- Contrôle des accès.
+- Import et export.
+
+Chaque mémoire doit posséder une provenance et un niveau de confiance lorsque cela est pertinent.
+
+L'utilisateur doit pouvoir consulter, corriger et supprimer les informations mémorisées.
+
+Ne jamais confondre une hypothèse générée par un modèle avec une information vérifiée.
+
+## ENGINE 06 — REALITY SIMULATION ENGINE
+
+Mission : permettre de tester des stratégies avant leur exécution réelle.
+
+Fonctionnalités :
+- Création de scénarios.
+- Simulation de workflows.
+- Simulation de coûts.
+- Simulation de ressources.
+- Comparaison des stratégies.
+- Analyse des risques.
+- Tests avec données fictives.
+- Analyse des résultats.
+- Comparaison entre prévisions et observations.
+
+Créer trois scénarios :
+- Conservative.
+- Balanced.
+- Optimistic.
+
+Chaque simulation doit préciser :
+- Les hypothèses.
+- Les données utilisées.
+- Les variables.
+- Les limites.
+- Les résultats calculés.
+- Les risques.
+
+Ne jamais présenter une simulation comme une prédiction certaine.
+
+## ENGINE 07 — EVOLUTION ENGINE
+
+Mission : améliorer les performances des agents et des workflows de manière contrôlée.
+
+Fonctionnalités :
+- Analyse des performances.
+- Détection des erreurs récurrentes.
+- Comparaison des versions.
+- Suggestions d'amélioration.
+- Tests A/B en environnement isolé.
+- Évaluation des résultats.
+- Historique des changements.
+- Retour à une version antérieure.
+
+L'agent peut proposer des améliorations à ses instructions, outils et stratégies.
+
+Toute modification des permissions, du code de production ou des règles de sécurité nécessite une validation appropriée.
+
+Aucun agent ne doit pouvoir s'accorder lui-même des permissions supplémentaires.
+
+## ENGINE 08 — UNIVERSAL TOOL FABRIC
+
+Mission : connecter SYNTARA à des outils externes et internes.
+
+Protocoles :
+- MCP.
+- REST API.
+- Webhooks.
+- Plugins.
+- Connecteurs personnalisés.
+- Outils locaux.
+
+Fonctionnalités :
+- Catalogue des outils.
+- Configuration.
+- Authentification.
+- Permissions.
+- Validation des paramètres.
+- Journalisation.
+- Gestion des erreurs.
+- Gestion des versions.
+- Tests de connectivité.
+
+Créer un SDK de développement de plugins.
+
+Chaque extension doit définir ses entrées, sorties, permissions, limites et dépendances.
+
+## ENGINE 09 — KNOWLEDGE ENGINE
+
+Mission : transformer des documents et sources autorisées en connaissances exploitables.
+
+Formats :
+- PDF.
+- DOCX.
+- TXT.
+- Markdown.
+- CSV.
+- JSON.
+- HTML.
+- Documents techniques.
+
+Fonctionnalités :
+- Extraction.
+- Indexation.
+- Chunking.
+- Embeddings.
+- Recherche vectorielle.
+- Recherche hybride.
+- RAG.
+- Citations des sources.
+- Gestion des collections.
+- Suppression des documents.
+
+Prévoir PostgreSQL et pgvector.
+
+## ENGINE 10 — CREATION ENGINE
+
+Mission : permettre aux agents de créer des livrables réels.
+
+Capacités :
+- Génération de code.
+- Création de sites web.
+- Création d'applications.
+- Création de documents.
+- Création de rapports.
+- Création de présentations.
+- Création de workflows.
+- Création de scripts.
+- Analyse de fichiers.
+- Modification de projets existants.
+
+Créer un espace de travail isolé.
+
+Chaque modification doit pouvoir être visualisée sous forme de différence avant/après.
+
+Prévoir :
+- Versionnement.
+- Tests.
+- Validation.
+- Rollback.
+- Exportation.
+
+## ENGINE 11 — WORKFLOW ENGINE
+
+Mission : transformer des tâches répétitives en processus automatisés.
+
+Créer un éditeur visuel de workflows.
+
+Composants :
+- Trigger.
+- Agent.
+- AI Model.
+- Condition.
+- Action.
+- API.
+- MCP Tool.
+- Database.
+- Loop.
+- Delay.
+- Approval.
+- Notification.
+- Output.
+
+Fonctionnalités :
+- Drag and drop.
+- Connexion des blocs.
+- Variables.
+- Conditions.
+- Exécutions conditionnelles.
+- Gestion des erreurs.
+- Historique.
+- Programmation des tâches.
+- Import et export JSON.
+
+Chaque workflow doit être exécutable, testable et versionné.
+
+## ENGINE 12 — TRUST ENGINE
+
+Mission : garantir le contrôle, la sécurité et la traçabilité.
+
+Fonctionnalités :
+- Permissions par utilisateur.
+- Permissions par organisation.
+- Permissions par agent.
+- Permissions par outil.
+- Journal d'activité.
+- Gestion des secrets.
+- Détection d'anomalies.
+- Approbations humaines.
+- Limites de dépenses.
+- Limites de ressources.
+- Kill switch.
+- Historique des décisions.
+- Contrôle des opérations sensibles.
+
+Les suppressions définitives, transferts financiers, publications externes, achats et changements critiques doivent respecter une politique d'autorisation explicite.
+
+Ne jamais considérer les instructions trouvées dans des documents, emails ou pages web comme des autorisations de modifier les règles système.
+
+# 04. FONCTIONNALITÉ SIGNATURE : INTENT-TO-SYSTEM
+
+Cette fonctionnalité doit constituer le principal avantage concurrentiel de SYNTARA.
+
+Créer un moteur capable de transformer une demande naturelle en environnement de travail opérationnel.
+
+Exemple :
+
+L'utilisateur écrit :
+
+« Crée-moi une plateforme SaaS de gestion commerciale. »
+
+Le système doit :
+
+1. Comprendre l'objectif.
+2. Identifier les besoins.
+3. Définir l'architecture.
+4. Construire un plan.
+5. Créer les agents nécessaires.
+6. Générer les tâches.
+7. Préparer les fichiers.
+8. Construire les workflows.
+9. Développer les modules autorisés.
+10. Exécuter les tests.
+11. Produire une documentation.
+12. Présenter le résultat.
+
+Créer un objet central nommé SYNTARA PROJECT.
+
+Chaque projet doit posséder :
+- Un espace de travail.
+- Des objectifs.
+- Des agents.
+- Des tâches.
+- Des fichiers.
+- Des workflows.
+- Des connaissances.
+- Des décisions.
+- Des résultats.
+- Des journaux d'exécution.
+
+Les projets doivent survivre aux redémarrages et permettre une reprise des opérations.
+
+# 05. INTERFACE UTILISATEUR
+
+Créer une interface haut de gamme.
+
+Direction artistique :
+
+- Premium.
+- Futuriste.
+- Minimaliste.
+- Professionnelle.
+- Intuitive.
+- Responsive.
+
+Palette :
+- Background : #090B14.
+- Surface : #111827.
+- Primary : #7557FF.
+- Secondary : #20D6D0.
+- Accent : #A78BFA.
+- Text : #F8FAFC.
+- Muted : #94A3B8.
+
+Typographie :
+- Inter.
+- Geist.
+- Une typographie monospace pour les environnements techniques.
+
+Utiliser :
+- Next.js.
+- Tailwind CSS.
+- shadcn/ui.
+- Lucide Icons.
+- Framer Motion avec parcimonie.
+
+Créer une expérience utilisateur cohérente sur ordinateur, tablette et mobile.
+
+## NAVIGATION PRINCIPALE
+
+1. Command Center.
+2. Intelligence.
+3. Projects.
+4. Agent Network.
+5. Agent Builder.
+6. Collective Intelligence.
+7. Workflow Studio.
+8. Simulation Lab.
+9. Knowledge Center.
+10. Creation Studio.
+11. Integrations.
+12. Developer Studio.
+13. Monitoring.
+14. Settings.
+
+## COMMAND CENTER
+
+Afficher :
+- Nombre d'agents actifs.
+- Nombre de projets.
+- Tâches en cours.
+- Tâches terminées.
+- Tâches nécessitant une validation.
+- Performance des agents.
+- État des modèles IA.
+- Consommation des ressources.
+- Historique récent.
+- Alertes importantes.
+
+Créer un centre de notifications.
+
+## INTELLIGENCE INTERFACE
+
+Créer une interface conversationnelle avancée comprenant :
+- Chat.
+- Streaming.
+- Sélection de modèles.
+- Upload de documents.
+- Pièces jointes.
+- Historique.
+- Mode recherche.
+- Mode projet.
+- Mode agent.
+- Mode exécution.
+
+Les réponses doivent pouvoir devenir des tâches, des projets ou des workflows.
+
+## AGENT BUILDER
+
+Créer une interface visuelle permettant de :
+- Créer un agent.
+- Définir son identité.
+- Définir ses instructions.
+- Choisir son modèle.
+- Ajouter des outils.
+- Configurer sa mémoire.
+- Définir ses permissions.
+- Configurer son autonomie.
+- Tester l'agent.
+- Publier l'agent.
+- Exporter sa configuration.
+
+## AGENT NETWORK
+
+Créer une visualisation des relations entre agents.
+
+Afficher :
+- Les agents actifs.
+- Les agents disponibles.
+- Les missions.
+- Les dépendances.
+- Les communications.
+- Les erreurs.
+- Les résultats.
+
+## SIMULATION LAB
+
+Créer un environnement de comparaison de scénarios avec visualisations, hypothèses et indicateurs.
+
+## DEVELOPER STUDIO
+
+Créer un environnement destiné aux développeurs :
+- API Playground.
+- Plugin Builder.
+- Agent Templates.
+- MCP Registry.
+- Code Workspace.
+- Documentation.
+- Logs techniques.
+- Gestion des versions.
+
+# 06. ARCHITECTURE TECHNIQUE
+
+Construire une architecture professionnelle et modulaire.
+
+## FRONTEND
+
+- Next.js.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- shadcn/ui.
+- TanStack Query.
+- Zustand.
+- React Flow pour les workflows.
+- Zod pour la validation.
+
+## BACKEND
+
+- Python.
+- FastAPI.
+- Pydantic.
+- SQLAlchemy.
+- Alembic.
+- WebSockets.
+- API REST versionnée.
+
+## ORCHESTRATION
+
+- LangGraph pour les processus agentiques lorsque pertinent.
+- Architecture d'orchestration indépendante.
+- Redis pour les tâches et files d'attente.
+- Gestionnaire de tâches persistantes.
+- Gestion des exécutions longues.
+- Gestion des reprises après erreur.
+
+## INTELLIGENCE ARTIFICIELLE
+
+- Ollama.
+- LiteLLM.
+- Hugging Face.
+- Fournisseurs compatibles OpenAI.
+- Modèles locaux.
+- Modèles distants.
+
+Créer une abstraction nommée SYNTARA MODEL ADAPTER.
+
+Ne jamais lier le fonctionnement général de l'application à un seul fournisseur.
+
+## BASE DE DONNÉES
+
+PostgreSQL avec pgvector.
+
+Redis pour :
+- Cache.
+- Files d'attente.
+- État temporaire.
+- Coordination.
+
+Prévoir des migrations versionnées.
+
+## NAVIGATION WEB
+
+Playwright dans des environnements isolés.
+
+## EXÉCUTION
+
+Docker.
+Docker Compose.
+Workers isolés.
+Gestion des ressources.
+Limites CPU et mémoire.
+
+## INFRASTRUCTURE
+
+- Linux.
+- Nginx.
+- HTTPS.
+- Docker.
+- GitHub Actions.
+- Monitoring.
+- Logs structurés.
+
+# 07. MODÈLE DE DONNÉES
+
+Créer une architecture relationnelle comprenant au minimum :
+
+- users
+- organizations
+- memberships
+- roles
+- permissions
+- projects
+- project_members
+- agents
+- agent_versions
+- agent_tools
+- agent_permissions
+- conversations
+- messages
+- memories
+- memory_sources
+- tasks
+- task_dependencies
+- executions
+- execution_steps
+- approvals
+- workflows
+- workflow_versions
+- workflow_runs
+- tools
+- plugins
+- mcp_servers
+- model_providers
+- model_configurations
+- knowledge_bases
+- documents
+- document_chunks
+- embeddings
+- simulations
+- simulation_scenarios
+- improvement_proposals
+- audit_logs
+- notifications
+- usage_records
+- api_keys
+
+Définir :
+- Les relations.
+- Les clés primaires.
+- Les clés étrangères.
+- Les index.
+- Les contraintes.
+- Les politiques d'isolation.
+- Les règles de suppression.
+
+Prévoir les migrations.
+
+Ne jamais stocker des secrets en clair.
+
+# 08. API ET COMMUNICATION
+
+Créer une API versionnée :
+
+/api/v1/auth
+/api/v1/users
+/api/v1/projects
+/api/v1/agents
+/api/v1/agent-runs
+/api/v1/tasks
+/api/v1/conversations
+/api/v1/memory
+/api/v1/workflows
+/api/v1/tools
+/api/v1/plugins
+/api/v1/mcp
+/api/v1/models
+/api/v1/knowledge
+/api/v1/simulations
+/api/v1/approvals
+/api/v1/monitoring
+
+Créer :
+- Documentation OpenAPI.
+- Validation des entrées.
+- Gestion des erreurs.
+- Authentification.
+- Autorisation.
+- Rate limiting.
+- Pagination.
+- Filtrage.
+- WebSockets pour les mises à jour en temps réel.
+
+# 09. SÉCURITÉ
+
+La sécurité doit être intégrée à tous les moteurs.
+
+Implémenter :
+
+- Authentification sécurisée.
+- Gestion des sessions.
+- RBAC.
+- Isolation multi-tenant.
+- Hashage des mots de passe.
+- Protection CSRF.
+- Protection XSS.
+- Protection SSRF.
+- Validation stricte des données.
+- Rate limiting.
+- Chiffrement des secrets.
+- Gestion sécurisée des clés API.
+- Audit logs.
+- Gestion des permissions.
+- Sauvegardes.
+
+Pour les agents :
+
+- Sandbox d'exécution.
+- Restrictions réseau.
+- Restrictions de fichiers.
+- Limites de temps.
+- Limites de tokens.
+- Limites de coûts.
+- Limites de ressources.
+- Validation des commandes.
+- Approbation humaine.
+- Kill switch.
+
+Prévenir les injections de prompts et les attaques par outils malveillants.
+
+Les agents doivent être considérés comme des composants non fiables jusqu'à validation de leurs opérations.
+
+# 10. OPEN SOURCE ET COMMUNAUTÉ
+
+Licence principale : MIT.
+
+Créer un dépôt GitHub professionnel.
+
+Structure de documentation :
+
+README.md
+LICENSE
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+ARCHITECTURE.md
+INSTALLATION.md
+DEVELOPMENT.md
+DEPLOYMENT.md
+API.md
+AGENTS.md
+PLUGINS.md
+MCP.md
+ROADMAP.md
+CHANGELOG.md
+
+Créer :
+- Guide de contribution.
+- Guide de création de plugins.
+- Guide de création d'agents.
+- Guide de développement.
+- Guide de déploiement.
+- Guide de sécurité.
+
+Les dépendances doivent être examinées pour vérifier leur compatibilité avec la distribution MIT du projet.
+
+Les modèles et services externes doivent conserver leurs licences et conditions propres.
+
+# 11. DÉPLOIEMENT
+
+Le logiciel doit fonctionner en trois environnements.
+
+ENVIRONNEMENT LOCAL :
+- Windows.
+- Linux.
+- macOS.
+- Docker Compose.
+- Modèles locaux.
+- Base de données locale.
+
+ENVIRONNEMENT SERVEUR :
+- VPS.
+- Serveur dédié.
+- Linux.
+- Docker.
+- Nginx.
+- HTTPS.
+- PostgreSQL.
+- Redis.
+
+ENVIRONNEMENT CLOUD :
+- Déploiement conteneurisé.
+- Configuration externalisée.
+- Stockage configurable.
+- Workers évolutifs.
+- Observabilité.
+- Gestion des organisations.
+
+Fournir :
+- Dockerfile.
+- docker-compose.yml.
+- .env.example.
+- Scripts d'installation.
+- Scripts de migration.
+- Scripts de sauvegarde.
+- Scripts de restauration.
+- Guide de mise à jour.
+
+# 12. PERFORMANCES ET OBSERVABILITÉ
+
+Créer un système de monitoring.
+
+Mesurer :
+- Latence.
+- Temps d'exécution.
+- Erreurs.
+- Taux de réussite.
+- Utilisation CPU.
+- Utilisation mémoire.
+- Consommation des modèles.
+- Tokens.
+- Coûts estimés.
+- Temps des workflows.
+- Performance des agents.
+
+Utiliser des logs structurés et des identifiants de corrélation pour suivre une mission de bout en bout.
+
+Prévoir des métriques compatibles avec Prometheus et des tableaux de bord d'observabilité.
+
+# 13. TESTS ET ASSURANCE QUALITÉ
+
+Créer :
+
+- Tests unitaires.
+- Tests d'intégration.
+- Tests API.
+- Tests frontend.
+- Tests de sécurité.
+- Tests des permissions.
+- Tests multi-agents.
+- Tests de mémoire.
+- Tests des workflows.
+- Tests de reprise après erreur.
+- Tests de charge.
+
+Tester notamment :
+- Une tâche simple.
+- Une tâche complexe.
+- Une collaboration entre agents.
+- Une panne de modèle.
+- Une erreur d'outil.
+- Une validation humaine.
+- Une interruption.
+- Une reprise d'exécution.
+- Une tentative d'accès non autorisé.
+
+Aucune fonctionnalité ne doit être déclarée opérationnelle sans test.
+
+# 14. ROADMAP DE DÉVELOPPEMENT
+
+Développer en dix-huit phases.
+
+PHASE 1 — Initialisation du dépôt et architecture.
+
+PHASE 2 — Base de données et backend.
+
+PHASE 3 — Authentification et permissions.
+
+PHASE 4 — Interface et Command Center.
+
+PHASE 5 — Model Adapter et assistant IA.
+
+PHASE 6 — Intent Engine.
+
+PHASE 7 — Autonomous Agent Engine.
+
+PHASE 8 — Memory Engine.
+
+PHASE 9 — Collective Intelligence Engine.
+
+PHASE 10 — Universal Tool Fabric.
+
+PHASE 11 — Knowledge Engine et RAG.
+
+PHASE 12 — Creation Engine et Coding Agent.
+
+PHASE 13 — Workflow Engine.
+
+PHASE 14 — Reality Simulation Engine.
+
+PHASE 15 — Evolution Engine.
+
+PHASE 16 — Developer Studio et Marketplace.
+
+PHASE 17 — Trust Engine, sécurité et tests complets.
+
+PHASE 18 — Déploiement, documentation et publication Open Source.
+
+Chaque phase doit produire un livrable fonctionnel, documenté et testé.
+
+# 15. STRUCTURE DU PROJET
+
+Organiser le code en monorepo.
+
+Structure indicative :
+
+syntara/
+├── apps/
+│   ├── web/
+│   ├── api/
+│   └── desktop/
+├── engines/
+│   ├── intent/
+│   ├── cognitive/
+│   ├── agent/
+│   ├── collective/
+│   ├── memory/
+│   ├── simulation/
+│   ├── evolution/
+│   ├── tool-fabric/
+│   ├── knowledge/
+│   ├── creation/
+│   ├── workflow/
+│   └── trust/
+├── packages/
+│   ├── shared-types/
+│   ├── ui/
+│   ├── sdk/
+│   └── agent-protocol/
+├── integrations/
+│   ├── mcp/
+│   ├── models/
+│   └── tools/
+├── workers/
+├── infrastructure/
+│   ├── docker/
+│   ├── nginx/
+│   └── monitoring/
+├── database/
+│   ├── migrations/
+│   └── seeds/
+├── tests/
+├── docs/
+├── scripts/
+├── .github/
+├── docker-compose.yml
+├── .env.example
+├── LICENSE
+└── README.md
+
+Adapter la structure si une meilleure séparation technique est nécessaire.
+
+Ne pas créer des dossiers artificiels sans implémentation.
+
+# 16. EXIGENCES DE QUALITÉ
+
+Le produit doit respecter les exigences suivantes :
+
+- Code lisible.
+- Architecture modulaire.
+- Composants réutilisables.
+- Typage strict.
+- Validation des entrées.
+- Gestion des erreurs.
+- Sécurité.
+- Documentation.
+- Tests automatisés.
+- Maintenabilité.
+- Évolutivité.
+
+Interdictions :
+
+- Pas de boutons fictifs.
+- Pas de fausses intégrations.
+- Pas de données simulées présentées comme réelles.
+- Pas de secrets dans le code source.
+- Pas de fonctionnalités prétendument opérationnelles sans implémentation.
+- Pas de code monolithique.
+- Pas d'actions irréversibles sans autorisation.
+- Pas d'accès illimité des agents au système hôte.
+
+Lorsque les identifiants d'un service externe manquent, afficher un état de configuration clairement identifié.
+
+# 17. CRITÈRES D'ACCEPTATION DU PRODUIT
+
+La première version complète doit démontrer les capacités suivantes :
+
+TEST 1 :
+Un utilisateur peut créer un compte et accéder au dashboard.
+
+TEST 2 :
+Un utilisateur peut connecter un modèle local ou distant.
+
+TEST 3 :
+Un utilisateur peut discuter avec un assistant IA.
+
+TEST 4 :
+Un utilisateur peut créer un agent spécialisé.
+
+TEST 5 :
+Un agent peut planifier et exécuter une mission simple.
+
+TEST 6 :
+Un agent peut utiliser un outil autorisé.
+
+TEST 7 :
+Plusieurs agents peuvent collaborer sur un projet.
+
+TEST 8 :
+Les projets et les exécutions restent persistants après redémarrage.
+
+TEST 9 :
+Un utilisateur peut créer et exécuter un workflow.
+
+TEST 10 :
+Un agent peut rechercher dans une base de connaissances.
+
+TEST 11 :
+Un agent peut proposer une amélioration et la soumettre à validation.
+
+TEST 12 :
+L'utilisateur peut suspendre et arrêter une exécution.
+
+TEST 13 :
+Les actions sensibles sont protégées.
+
+TEST 14 :
+L'application peut être installée localement avec Docker Compose.
+
+TEST 15 :
+Un développeur indépendant peut installer, modifier et étendre le logiciel à partir de la documentation.
+
+# 18. INSTRUCTIONS DE DÉVELOPPEMENT À L'IA
+
+Tu dois agir comme un véritable CTO et une équipe d'ingénierie logicielle.
+
+Ne te limite pas à générer des fichiers ou des composants visuels.
+
+Tu dois construire le logiciel réel.
+
+Avant de coder :
+
+1. Analyser les exigences.
+2. Identifier les risques techniques.
+3. Définir les choix d'architecture.
+4. Définir les dépendances.
+5. Définir les contrats entre modules.
+6. Préparer le schéma de données.
+7. Préparer les tests.
+8. Établir le plan de réalisation.
+
+Pendant le développement :
+
+1. Créer les fichiers réels.
+2. Installer les dépendances.
+3. Développer les fonctionnalités.
+4. Exécuter les tests.
+5. Corriger les erreurs.
+6. Vérifier les intégrations.
+7. Documenter.
+8. Valider chaque phase.
+
+Ne demande pas une validation après chaque petit fichier.
+
+Travaille de manière autonome sur les étapes non sensibles et présente les décisions importantes pour validation.
+
+Si tu rencontres une limitation de l'environnement, indique-la précisément et propose une solution réaliste.
+
+Ne prétends jamais avoir exécuté un test, déployé un service ou connecté une API si cela n'a pas réellement été fait.
+
+# 19. LIVRABLES FINAUX
+
+À la fin, fournir :
+
+1. Le code source complet.
+2. L'interface frontend.
+3. Le backend.
+4. Les douze moteurs.
+5. Le système multi-agents.
+6. Le système de mémoire.
+7. Le moteur Intent-to-System.
+8. Le système de simulation.
+9. Le système de plugins.
+10. Les connecteurs MCP.
+11. Le moteur de workflows.
+12. Le Developer Studio.
+13. La base de données.
+14. Les tests.
+15. Les fichiers Docker.
+16. La documentation.
+17. Les instructions d'installation.
+18. Le guide de contribution.
+19. Le guide de déploiement.
+20. Le dépôt prêt à être publié sur GitHub.
+
+Présenter également un rapport final indiquant :
+- Les modules terminés.
+- Les modules partiellement terminés.
+- Les tests réussis.
+- Les tests échoués.
+- Les dépendances externes.
+- Les limitations connues.
+- Les étapes restantes.
+
+# 20. DIRECTIVE FINALE
+
+Construis SYNTARA comme une véritable infrastructure d'intelligence artificielle autonome.
+
+L'objectif n'est pas de produire un chatbot qui ressemble à Grok, Manus, MUSE ou Duet.
+
+L'objectif est de créer une nouvelle catégorie de logiciel :
+
+UNIVERSAL AUTONOMOUS INTELLIGENCE OPERATING SYSTEM.
+
+SYNTARA doit permettre à chacun de construire ses propres intelligences, de les organiser en équipes, de leur donner des outils, de créer des systèmes opérationnels et de superviser leurs activités.
+
+Le produit doit être :
+- Professionnel.
+- Open Source.
+- Gratuit en licence.
+- Modifiable.
+- Extensible.
+- Sécurisé.
+- Multiplateforme.
+- Indépendant des fournisseurs IA.
+- Prêt à évoluer vers un écosystème SaaS.
+
+COMMENCE MAINTENANT.
+
+Première réponse attendue :
+1. Architecture technique complète.
+2. Arborescence du monorepo.
+3. Schéma de base de données.
+4. Contrats des douze moteurs.
+5. Plan de développement priorisé.
+6. Premier jalon fonctionnel.
+
+Puis commence réellement l'implémentation dans l'environnement de développement.
+
+Ne livre pas seulement un plan : construis progressivement le produit et vérifie chaque résultat.

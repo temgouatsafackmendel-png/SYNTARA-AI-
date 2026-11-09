@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 860" width="1440" height="860" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1440" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07090F"/>
+      <stop offset="100%" stop-color="#0B101B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="860" rx="16" fill="url(#bg3)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Top Section: Visual Workflow Studio (13 Block Types) -->
+  <rect x="36" y="32" width="1368" height="390" rx="16" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="64" y="64" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="0.14em">ENGINE 11 · VISUAL WORKFLOW STUDIO (13 EXECUTABLE BLOCK TYPES)</text>
+  <text x="64" y="92" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="18" font-weight="600">Pipeline d'Automatisation CRM &amp; Support Client B2B (v1.2.0)</text>
+  <rect x="1200" y="54" width="172" height="36" rx="10" fill="#6E56CF"/>
+  <text x="1226" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="600">▶ Exécuter Workflow</text>
+
+  <!-- Canvas Box -->
+  <rect x="64" y="114" width="1312" height="280" rx="14" fill="#07090F" stroke="#FFFFFF" stroke-opacity="0.07"/>
+
+  <!-- Dashed Connectors -->
+  <line x1="254" y1="250" x2="334" y2="250" stroke="#6E56CF" stroke-width="2" stroke-dasharray="5 3"/>
+  <line x1="514" y1="250" x2="594" y2="250" stroke="#6E56CF" stroke-width="2" stroke-dasharray="5 3"/>
+  <line x1="774" y1="250" x2="854" y2="250" stroke="#20D6D0" stroke-width="2" stroke-dasharray="5 3"/>
+  <line x1="1034" y1="250" x2="1114" y2="250" stroke="#6E56CF" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <!-- Node 1: Trigger -->
+  <g transform="translate(84, 214)">
+    <rect width="170" height="72" rx="12" fill="#0D111C" stroke="#20D6D0" stroke-opacity="0.6"/>
+    <text x="16" y="26" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">01 · TRIGGER</text>
+    <text x="16" y="48" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Webhook Ticket</text>
+  </g>
+
+  <!-- Node 2: Agent -->
+  <g transform="translate(334, 214)">
+    <rect width="180" height="72" rx="12" fill="#0D111C" stroke="#6E56CF" stroke-opacity="0.8"/>
+    <text x="16" y="26" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="10">02 · AGENT</text>
+    <text x="16" y="48" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Research &amp; RAG</text>
+  </g>
+
+  <!-- Node 3: Condition -->
+  <g transform="translate(594, 214)">
+    <rect width="180" height="72" rx="12" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <text x="16" y="26" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="10">03 · CONDITION</text>
+    <text x="16" y="48" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Confiance &gt;= 85%</text>
+  </g>
+
+  <!-- Node 4: Approval -->
+  <g transform="translate(854, 214)">
+    <rect width="180" height="72" rx="12" fill="#0D111C" stroke="#F59E0B" stroke-opacity="0.6"/>
+    <text x="16" y="26" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="10">04 · APPROVAL</text>
+    <text x="16" y="48" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Porte Trust Humaine</text>
+  </g>
+
+  <!-- Node 5: Output -->
+  <g transform="translate(1114, 214)">
+    <rect width="180" height="72" rx="12" fill="#0D111C" stroke="#34D399" stroke-opacity="0.6"/>
+    <text x="16" y="26" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">05 · OUTPUT</text>
+    <text x="16" y="48" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Réponse &amp; Audit SQL</text>
+  </g>
+
+  <!-- Bottom Section: Reality Simulation Lab (3 Scenarios) -->
+  <rect x="36" y="444" width="1368" height="384" rx="16" fill="#0D111C" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <text x="64" y="478" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="0.14em">ENGINE 06 · REALITY SIMULATION LAB (CONSERVATIVE · BALANCED · OPTIMISTIC)</text>
+  <text x="64" y="504" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="18" font-weight="600">Comparaison Prédictive Multi-Scénarios FinOps &amp; Ressources</text>
+
+  <!-- Scenario 1: Conservative -->
+  <g transform="translate(64, 526)">
+    <rect width="416" height="274" rx="14" fill="#07090F" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="24" y="34" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Conservative</text>
+    <text x="24" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Coût Mensuel Estimé</text>
+    <text x="24" y="96" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">$412.80</text>
+    <text x="220" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Probabilité Succès</text>
+    <text x="220" y="96" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">99.1%</text>
+    <line x1="24" y1="118" x2="392" y2="118" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="24" y="146" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">· Redondance complète + double validation humaine</text>
+    <text x="24" y="170" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">· Fallback Cloud systématique sur tâches critiques</text>
+    <text x="24" y="210" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="11">ROI Projeté : 2.8x · Durée : 6.4h</text>
+  </g>
+
+  <!-- Scenario 2: Balanced (Recommended) -->
+  <g transform="translate(504, 526)">
+    <rect width="416" height="274" rx="14" fill="#121827" stroke="#20D6D0" stroke-width="1.5"/>
+    <text x="24" y="34" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Balanced</text>
+    <text x="290" y="34" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">RECOMMANDÉ</text>
+    <text x="24" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Coût Mensuel Estimé</text>
+    <text x="24" y="96" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">$248.50</text>
+    <text x="220" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Probabilité Succès</text>
+    <text x="220" y="96" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">96.4%</text>
+    <line x1="24" y1="118" x2="392" y2="118" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="24" y="146" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">· Routage hybride 60% Ollama local / 40% Cloud</text>
+    <text x="24" y="170" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">· Cache sémantique pgvector activé</text>
+    <text x="24" y="210" fill="#20D6D0" font-family="JetBrains Mono, monospace" font-size="11">ROI Projeté : 4.6x · Durée : 4.2h</text>
+    <text x="24" y="246" fill="#8A94A6" font-family="JetBrains Mono, monospace" font-size="10">Observé vs Prévu : Écart réel +1.8% seulement</text>
+  </g>
+
+  <!-- Scenario 3: Optimistic -->
+  <g transform="translate(944, 526)">
+    <rect width="416" height="274" rx="14" fill="#07090F" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="24" y="34" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Optimistic</text>
+    <text x="24" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Coût Mensuel Estimé</text>
+    <text x="24" y="96" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">$142.00</text>
+    <text x="220" y="70" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">Probabilité Succès</text>
+    <text x="220" y="96" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">89.5%</text>
+    <line x1="24" y1="118" x2="392" y2="118" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="24" y="146" fill="#8A94A6" font-family="Inter, sans-serif" font-size="11">· Exécution parallèle maximale (85% modèles locaux)</text>
+    <text x="24" y="170" fill="#FBBF24" font-family="Inter, sans-serif" font-size="11">· Risque : Latence GPU locale en pic de charge</text>
+    <text x="24" y="210" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="11">ROI Projeté : 6.1x · Durée : 2.8h</text>
+  </g>
+</svg>
