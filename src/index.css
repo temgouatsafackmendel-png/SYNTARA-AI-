@@ -3,23 +3,31 @@
 
 @layer base {
   :root {
-    --bg-canvas: #07090F;
-    --bg-surface: #0D111C;
-    --bg-elevated: #131926;
-    --primary: #7557FF;
+    --bg-canvas: #06080E;
+    --bg-surface: #0C101A;
+    --bg-elevated: #121826;
+    --primary: #6E56CF;
     --secondary: #20D6D0;
     --accent: #A78BFA;
     --text-main: #F8FAFC;
-    --text-muted: #94A3B8;
+    --text-muted: #8A94A6;
     --border-hairline: rgba(255, 255, 255, 0.07);
   }
 
   body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #07090F;
+    background-color: #06080E;
+    background-image: radial-gradient(
+      ellipse 85% 42% at 50% -12%,
+      rgba(110, 86, 207, 0.14),
+      rgba(32, 214, 208, 0.04) 55%,
+      transparent 100%
+    );
+    background-attachment: fixed;
     color: #F8FAFC;
     overflow-x: hidden;
-    letter-spacing: 0.005em;
+    letter-spacing: 0.004em;
+    -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, h4, .font-display {
